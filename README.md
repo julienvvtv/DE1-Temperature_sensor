@@ -1,6 +1,6 @@
 # DE1-temperature_sensor
 
-The goal of this project was to learn to control an I2C temperature sensor with an Altera Cyclone V SoC using Quartus II starting from a simple code C that did the same job on a PIC card. 
+The goal of this project was to learn to control an I2C temperature sensor with an Altera Cyclone V SoC using Quartus II starting from a simple code C that did the same job on a PIC card  (temperature.c). 
 
 In this project :
 
