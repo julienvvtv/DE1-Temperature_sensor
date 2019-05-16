@@ -47,7 +47,7 @@ ENTITY i2c_master IS
 	 oReady	  :  out      STD_LOGIC;
 	 oStart		:  out      STD_LOGIC;
     oSlv_ack1		:  out      STD_LOGIC;					
-    oSlv_ack2		:  out      STD_LOGIC;					--on sort des pins qui rapportent les Ã©tats dans lesquels on est pour savoir ou on est dans la machine d'Ã©tat 
+    oSlv_ack2		:  out      STD_LOGIC;		--on sort des pins qui rapportent les Ã©tats dans lesquels on est pour savoir ou on est dans la machine d'Ã©tat 
     oMstr_ack		:  out      STD_LOGIC;
     oStop		:  out      STD_LOGIC;
 	 oRd			: out 		STD_LOGIC;
@@ -75,7 +75,7 @@ BEGIN
 	oReady <= '1' when state = ready else '0';
 	oStart <= '1' when state = start else '0';
 	oSlv_ack1 <= '1' when state = slv_ack1 else '0';
-	oSlv_ack2 <= '1' when state = slv_ack2 else '0';		--on sort un bit Ã  1 si on est dans l'Ã©tat ... et 0 si on y est pas
+	oSlv_ack2 <= '1' when state = slv_ack2 else '0';--on sort un bit a  1 si on est dans l'etat ... et 0 si on y est pas
 	oMstr_ack <= '1' when state = mstr_ack else '0';
 	oStop <= '1' when state = stop else '0';
 	oRd <= '1' when state = rd else '0';
