@@ -12,4 +12,6 @@ In the App folder, you will find the program that includes the state machine of 
 
 In the Appdriver folder, you will find the grouping of the driver and the application where you only need to name the pins you want to use to flash it on the SoC.
 
+The temperature.zip file contains the whole project that needs to be launched on Quartus II
+
 Demonstration at https://www.youtube.com/watch?v=I1YpRnDo-Lw
